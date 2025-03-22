@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Thisn is my first server");
+  res.send("This is my first server");
 });
 
 app.listen(process.env.PORT, () => {
